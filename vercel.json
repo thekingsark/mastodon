@@ -1,14 +1,3 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
-  "routes": [
-    {
-      "src": "/studio(.*)",
-      "dest": "/hitech/dist$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
